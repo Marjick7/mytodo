@@ -1,0 +1,34 @@
+.wapper{
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    background: black;
+    color: white;
+}
+input{
+    height: 2rem;
+    width: 27rem;
+}
+#plus{
+    height: 2.25rem;
+    width: 2.25rem;
+    background-color: purple;
+}
+#clear{
+    font-weight: bold;
+}
+h1{
+    text-transform: uppercase;
+}
+.todoList li{
+    list-style: none;
+    
+}
+.inputField button{
+    opacity: 0.6;
+    pointer-events: none;
+}
+.inputField button.active{
+    opacity: 1;
+    pointer-events: auto;
+}
